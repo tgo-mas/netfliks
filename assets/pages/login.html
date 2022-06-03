@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Netfliks</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css"/>
+    <style>
+        h1{
+            font-size: 2rem;
+        }
+
+        #input-email, #input-senha{
+            margin-right: 2rem;
+            margin-bottom: 1rem;
+            width: 87%;
+            height: 3rem;
+            border: none;
+            padding: 10px;
+            padding-left: 30px;
+        }
+
+        #entrar{
+            width: 87%;
+            height: 3.2rem;
+            border-radius: 3px;
+            font-weight: 450;
+        }
+
+    </style>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <main id="main-content" class="container-fluid">
+        <nav class="navbar">
+            <a href="../../index.html" class="navbar-brand" style="font-size: 3rem; margin-left: -2rem;">NETFLIKS</a>
+        </nav>
+        <div class="container-fluid row justify-content-center">
+            <div class="col-lg-5 p-5 mb-5 pr-4" id="login-div" style="background-color: rgba(0,0,0,0.7);">
+                <h1 style="font-weight: 500; margin: 2rem;">Login</h1>
+                <form action="#">
+                    <div class="form-group justify-content-center">
+                        <input type="email" class="form-control mx-4 py-4 bg-dark text-muted" id="input-email" placeholder="E-mail">
+                        <input type="password" class="form-control mx-4 py-4 mb-5 bg-dark text-muted" id="input-senha" placeholder="Senha">
+                        <button type="submit" class="btn btn-danger mx-4" id="entrar">Entrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
